@@ -1,0 +1,7 @@
+bundle,arm,score_reviewer_opus_5_5,score_reviewer_sonnet_5,rank_both_reviewers
+A,S_opus_solo_no_agents,24,23,1
+A,O_orchestrator_opus,21,21,2
+A,F_orchestrator_fable,20,20,3
+B,S_opus_solo_no_agents,25,25,1
+B,O_orchestrator_opus,22,24,2 (Sonnet: tied 1st)
+B,F_orchestrator_fable,20,19,3 (see correction in README)

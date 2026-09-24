@@ -1,0 +1,8 @@
+bundle,arm,main_thread_model,tickets_fixed,hidden_tests,regressions,cost_usd_host,wall_min_host,turns,output_tokens,subagents
+A,F_orchestrator_fable,claude-fable-5-1,4/4,26/26,0,5.45,8.0,27,27469,0
+A,O_orchestrator_opus,claude-opus-5-5,4/4,26/26,0,2.78,11.5,51,29878,0
+A,S_opus_solo_no_agents,claude-opus-5-5,4/4,26/26,0,3.30,15.6,52,32549,0
+B,F_orchestrator_fable,claude-fable-5-1,4/4,37/37,0,7.39,12.4,46,45081,0
+B,O_orchestrator_opus,claude-opus-5-5,4/4,37/37,0,3.01,10.1,60,27470,0
+B,S_opus_solo_no_agents,claude-opus-5-5,4/4,37/37,0,2.85,8.8,57,27605,0
+A,O_orchestrator_opus (pilot repeat),claude-opus-5-5,4/4,26/26,0,3.60,11.1,46,31065,1 (built-in agent; not a template worker)
