@@ -148,8 +148,8 @@ had reported.
 2. **The model in the main thread is what you pay for.** Fable 5.1 took
    fewer, larger turns and sometimes finished faster. It cost 2.0-2.5x as much
    in benchmark 2 and 1.9-3.0x in benchmark 1. Both models completed every
-   benchmark 2 ticket; benchmark 1's defect review results differed. Its
-   Fable's blind-review scores were slightly weaker.
+   benchmark 2 ticket; benchmark 1's defect review results differed. Fable's
+   blind-review scores were slightly weaker.
 3. **Orchestration instructions did not help or hurt measurably** at this
    size. Opus solo and Opus orchestrating stayed within noise.
 4. **Cache writes are the cost item to watch in short runs.** In benchmark 1
