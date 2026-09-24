@@ -7,11 +7,12 @@ repository has the method, the numbers, and the measurement script.
 
 ## TL;DR
 
-- **Quality was the same** across every setup: every run fixed every ticket,
-  and none broke an existing test.
-- **Nobody delegated.** In 11 scored sessions, neither orchestrator started
-  one of its worker agents. They judged the work too small to pay a subagent's
-  fixed context cost.
+- **All six main runs in benchmark 2 fixed every ticket without regressions.**
+  Results differed in benchmark 1's defect review: Fable found 4/5 seeded
+  bugs; Opus found 3/5 plus a partial fix and identified one real, unseeded bug.
+- **Neither orchestrator used a configured template worker in the ten main
+  benchmark runs.** Both chose to work directly. In a separate pilot repeat,
+  Opus did call a built-in agent, but it was not one of the template workers.
 - **Claude Fable 5.1 as orchestrator cost 1.9-3.0x as much as Claude Opus 5.5**
   for the same result. Speed was mixed.
 - **Opus 5.5 working alone matched Opus 5.5 orchestrating** on cost and time.
